@@ -15,3 +15,5 @@ title: 我的Blog
     </ul>
     <h1>site.baseurl:{{ site.baseurl }}</h1>
     <h1>post.url:{{ post.url }}</h1>
+        <h1>post.date:{{ post.date }}</h1>
+        {{ post.date | date_to_string }} 
